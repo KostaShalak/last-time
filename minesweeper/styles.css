@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+   text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.area {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+}
+
+.button {
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border: both;
+}
